@@ -59,12 +59,17 @@ You may be using [Markdown Live Preview](https://markdownlivepreview.com/).
 | left baz      | right baz     |
 
 ## Blocks of code
-
+\`\`\`
+// Example code block
+function helloWorld() {
+  console.log("Hello, world!");
+}
+\`\`\`
 
 
 ## Inline code
 
-This web site is using .
+This web site is using &grave;markedjs/marked&grave;.
 `
 
 export default InitialMarkdown

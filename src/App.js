@@ -9,7 +9,7 @@ const App = () => {
   const [markdown, setMarkdown] = useState(InitialMarkdown);
   const [sync, setSync] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
-  console.log(githubImage)
+  // console.log(githubImage)
 
   const handleSyncChange = () => {
     setSync(!sync);

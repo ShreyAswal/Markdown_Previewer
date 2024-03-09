@@ -2,7 +2,8 @@
     height: auto;
     /* min-height: 100vh; */
     width: auto;
-    max-width: 50%;
+    /* max-width: 50%; */
+    min-width: 50%;
 
     padding: 0.4em 0.2em 0.2em 0.5em;
     overflow-y: auto;
@@ -11,7 +12,7 @@
 
 #preview{
     overflow-y: auto;
-    width: initial;
+    /* width: 50%; */
 }
 
 img{
