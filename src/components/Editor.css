@@ -1,0 +1,19 @@
+#editorContainer{
+    /* height: auto; */
+    min-height:-webkit-fill-available;
+    
+    width: 50%;
+    /* background-color: aqua; */
+    padding: 0.4em 0.2em 0.2em 0.5em;
+    /* border-right: 0.2em solid black; */
+
+}
+
+#editor{
+    height: auto;
+    min-height: inherit;
+    width:-webkit-fill-available;
+    overflow-y:auto;
+    border: 0;
+    resize: none;
+}

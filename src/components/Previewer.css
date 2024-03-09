@@ -1,0 +1,20 @@
+#previewContainer{
+    height: auto;
+    /* min-height: 100vh; */
+    width: auto;
+    max-width: 50%;
+
+    padding: 0.4em 0.2em 0.2em 0.5em;
+    overflow-y: auto;
+    overflow-block:auto;
+}
+
+#preview{
+    overflow-y: auto;
+    width: initial;
+}
+
+img{
+    max-height: 30vh;
+    max-width: 30vw;
+}
